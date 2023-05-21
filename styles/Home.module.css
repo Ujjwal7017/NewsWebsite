@@ -1,0 +1,53 @@
+.main{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 7rem;
+}
+.title{
+  font-size: 2rem;
+  color: #f6f4f4;
+  margin-bottom: 0.5rem;
+}
+
+.pagination{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pagination div{
+  margin: 25px;
+  border: 1px solid #ccc;
+}
+
+.pagination .active{ 
+  cursor: pointer;
+}
+
+.search{
+  margin-top: 5rem;
+}
+.search input{
+  width: 25%;
+  color: #aeaeae;
+}
+
+.spinner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aeaeae;
+}
+
+@media screen and (max-width: 1068px){
+  .search input{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 568px){
+  .search input{
+    width: 100%;
+  }
+}
